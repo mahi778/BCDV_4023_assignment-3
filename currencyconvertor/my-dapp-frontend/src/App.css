@@ -1,0 +1,21 @@
+#root {
+  margin: auto auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* This makes sure that the App container takes at least the full height of the viewport */
+  text-align: center;
+}
+
+/* Additional styles for the header to ensure it's also centered */
+.App-header {
+  width: 100%;
+  max-width: 600px; /* Adjust the width as needed */
+  margin: auto;
+  padding: 2rem;
+}
